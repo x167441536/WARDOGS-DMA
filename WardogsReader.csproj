@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows8.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishTrimmed>false</PublishTrimmed>
+    <EnableDefaultItems>true</EnableDefaultItems>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="artifacts\**\*.cs" />
+    <!-- 1.89.2 is the newest ImGui.NET version ABI-compatible with Veldrid.ImGui 5.89.2; 1.91.x removed KeyMap used by that backend. -->
+    <PackageReference Include="ImGui.NET" Version="1.89.2" />
+    <PackageReference Include="SharpGLTF.Core" Version="1.0.6" />
+    <PackageReference Include="Veldrid.ImGui" Version="5.89.2-ga121087cad" />
+    <PackageReference Include="Vmmsharp" Version="5.14.3" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.12" />
+    <None Update="*.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <!-- Self-contained map calibration and mortar data. Downloaded tiles stay local. -->
+    <None Update="maps\*.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="data\weapons.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
+
