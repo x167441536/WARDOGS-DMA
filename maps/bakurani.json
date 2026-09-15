@@ -1,0 +1,243 @@
+{
+  "id": "bakurani",
+  "name": "Bakurani",
+  "w": 16,
+  "h": 16,
+  "bounds": {
+    "minX": 23.35,
+    "maxX": 133.6,
+    "minY": 19.34,
+    "maxY": 129.65
+  },
+  "tiles": {
+    "path": "https://assets.wardogs-artillery.com/releases/assets-v1/maps/tiles/bakurani",
+    "tileSize": 256,
+    "minZoom": 0,
+    "maxZoom": 7,
+    "extension": "webp"
+  },
+  "markers": [
+    {
+      "icon": "tower",
+      "x": 8364,
+      "y": 7285,
+      "label": "Tower 4",
+      "minZoom": 0.4,
+      "maxZoom": 100
+    },
+    {
+      "icon": "tower",
+      "x": 7719,
+      "y": 7344,
+      "label": "Tower 3",
+      "minZoom": 0.4,
+      "maxZoom": 100
+    },
+    {
+      "icon": "tower",
+      "x": 7719,
+      "y": 7000,
+      "label": "Tower 2",
+      "minZoom": 0.4,
+      "maxZoom": 100
+    },
+    {
+      "icon": "tower",
+      "x": 8052,
+      "y": 6985,
+      "label": "Tower 1",
+      "minZoom": 0.4,
+      "maxZoom": 100
+    },
+    {
+      "icon": "tower",
+      "x": 8222,
+      "y": 6841,
+      "label": "Tower 5",
+      "minZoom": 0.4,
+      "maxZoom": 100
+    },
+    {
+      "icon": "valkyra",
+      "x": 11875,
+      "y": 7093,
+      "label": "Valkyra",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "weapons_vendor",
+      "x": 11830,
+      "y": 7073,
+      "label": "Weapons Vendor",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "garage_vendor",
+      "x": 11814,
+      "y": 7045,
+      "label": "Garage Vendor",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "spawn_board",
+      "x": 11837,
+      "y": 7049,
+      "label": "Spawn Board",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "manticore",
+      "x": 4009,
+      "y": 7752,
+      "label": "Manticore",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "weapons_vendor",
+      "x": 3977,
+      "y": 7765,
+      "label": "Weapons Vendor",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "garage_vendor",
+      "x": 4010,
+      "y": 7731,
+      "label": "Garage Vendor",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "spawn_board",
+      "x": 3968,
+      "y": 7748,
+      "label": "Spawn Board",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "lonestar",
+      "x": 8746,
+      "y": 3250,
+      "label": "Lonestar",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "weapons_vendor",
+      "x": 8720,
+      "y": 3268,
+      "label": "Weapons Vendor",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "garage_vendor",
+      "x": 8684,
+      "y": 3264,
+      "label": "Garage Vendor",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "spawn_board",
+      "x": 8706,
+      "y": 3272,
+      "label": "Spawn Board",
+      "minZoom": 10,
+      "maxZoom": 100
+    }
+  ],
+  "zones": [],
+  "polygons": [
+    {
+      "color": "#d86666",
+      "fillOpacity": 0.12,
+      "strokeWidth": 2,
+      "dashed": true,
+      "label": "VALKYRA Spawn",
+      "points": [
+        {
+          "x": 11750,
+          "y": 7376
+        },
+        {
+          "x": 12122,
+          "y": 7071
+        },
+        {
+          "x": 11818,
+          "y": 6699
+        },
+        {
+          "x": 11445,
+          "y": 7004
+        }
+      ]
+    },
+    {
+      "color": "#82c596",
+      "fillOpacity": 0.12,
+      "strokeWidth": 2,
+      "dashed": true,
+      "label": "MANTICORE Spawn",
+      "points": [
+        {
+          "x": 3868,
+          "y": 7988
+        },
+        {
+          "x": 4339,
+          "y": 7885
+        },
+
+        {
+          "x": 4235,
+          "y": 7415
+        },
+        {
+          "x": 3765,
+          "y": 7518
+        }
+      ]
+    },
+    {
+      "color": "#5fa8d3",
+      "fillOpacity": 0.12,
+      "strokeWidth": 2,
+      "dashed": true,
+      "label": "LONESTAR Spawn",
+      "points": [
+        {
+          "x": 8308,
+          "y": 3527
+        },
+        {
+          "x": 8772,
+          "y": 3651
+        },
+        {
+          "x": 8897,
+          "y": 3186
+        },
+        {
+          "x": 8432,
+          "y": 3062
+        }
+      ]
+    }
+  ],
+  "coordinateMetersPerUnit": 100,
+  "tileBounds": {
+    "minX": -0.03,
+    "maxX": 163.81,
+    "minY": -0.01,
+    "maxY": 163.83
+  }
+}
