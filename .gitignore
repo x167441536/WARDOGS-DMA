@@ -1,0 +1,35 @@
+# Build output and IDE state
+bin/
+obj/
+.vs/
+.idea/
+
+# Local validation/build artifacts
+artifacts/
+*.log
+*.tmp
+*.bak
+*.before-*
+BASELINE_FILE
+MODIFIED_FILE
+DIFF_FILE
+VERIFICATION.txt
+ROLLBACK.sh
+
+# Local runtime configuration and downloaded tile cache
+wardogs-esp.json
+maps/tile-cache/
+
+# Native runtime dependencies and prebuilt outputs
+*.dll
+*.pdb
+*.exe
+*.deps.json
+*.runtimeconfig.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+
+# Large local map preview (runtime uses JSON/tile service)
+maps/*.png
