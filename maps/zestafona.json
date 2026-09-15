@@ -1,0 +1,201 @@
+{
+  "id": "zestafona",
+  "name": "Zestafona",
+  "w": 32,
+  "h": 32,
+  "bounds": {
+    "minX": 19.90,
+    "maxX": 124.89,
+    "minY": 50.70,
+    "maxY": 141.90
+  },
+  "tiles": {
+    "path": "https://assets.wardogs-artillery.com/releases/assets-v1/maps/tiles/zestafona",
+    "tileSize": 256,
+    "minZoom": 0,
+    "maxZoom": 7,
+    "extension": "webp"
+  },
+  "markers": [
+    {
+      "icon": "tower",
+      "x": 7017.2672,
+      "y": 10017.17,
+      "label": "Tower 3",
+      "minZoom": 0.4,
+      "maxZoom": 100
+    },
+    {
+      "icon": "tower",
+      "x": 6859.9808,
+      "y": 10415.30,
+      "label": "Tower 1",
+      "minZoom": 0.4,
+      "maxZoom": 100
+    },
+    {
+      "icon": "tower",
+      "x": 7289.2416,
+      "y": 10507.0592,
+      "label": "Tower 2",
+      "minZoom": 0.4,
+      "maxZoom": 100
+    },
+    {
+      "icon": "valkyra",
+      "x": 3943.6288,
+      "y": 12494.4384,
+      "label": "VALKYRA Spawn",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "manticore",
+      "x": 10466.0992,
+      "y": 11508.1216,
+      "label": "MANTICORE Spawn",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "lonestar",
+      "x": 6800.9984,
+      "y": 6660.096,
+      "label": "LONESTAR",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "spawn_board",
+      "x": 3889.5616,
+      "y": 12486.2464,
+      "label": "Spawn Board",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "garage_vendor",
+      "x": 10466.0992,
+      "y": 11454.0544,
+      "label": "Garage Vendor",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "spawn_board",
+      "x": 10505.4208,
+      "y": 11529.4208,
+      "label": "Spawn Board",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "spawn_board",
+      "x": 6823.936,
+      "y": 6632.243200000001,
+      "label": "Spawn Board",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "garage_vendor",
+      "x": 6782.976,
+      "y": 6650.265600000001,
+      "label": "Garage Vendor",
+      "minZoom": 10,
+      "maxZoom": 100
+    },
+    {
+      "icon": "garage_vendor",
+      "x": 3940.352,
+      "y": 12479.6928,
+      "label": "Garage Vendor",
+      "minZoom": 10,
+      "maxZoom": 100
+    }
+  ],
+    "polygons": [
+      {
+        "color": "#82c596",
+        "fillOpacity": 0.12,
+      "strokeWidth": 2,
+        "dashed": true,
+        "label": "MANTICORE Spawn",
+        "points": [
+          {
+            "x": 10330.11,
+            "y": 11170.61
+          },
+          {
+            "x": 10190.84,
+            "y": 11631.00
+          },
+          {
+            "x": 10651.23,
+            "y": 11768.62
+          },
+          {
+            "x": 10788.86,
+            "y": 11309.87
+          }
+        ]
+      },
+      {
+        "color": "#d86666",
+        "fillOpacity": 0.12,
+        "strokeWidth": 2,
+        "dashed": true,
+        "label": "VALKYRA Spawn",
+        "points": [
+          {
+            "x": 4027.18,
+            "y": 12188.05
+          },
+          {
+            "x": 3570.07,
+            "y": 12335.51
+          },
+          {
+            "x": 3717.5296,
+            "y": 12792.62
+          },
+          {
+            "x": 4174.64,
+            "y": 12645.17
+          }
+        ]
+      },
+      {
+        "color": "#5fa8d3",
+        "fillOpacity": 0.12,
+        "strokeWidth": 2,
+        "dashed": true,
+        "label": "LONESTAR Spawn",
+        "points": [
+          {
+            "x": 6512.64,
+            "y": 6481.51
+          },
+          {
+            "x": 6630.60,
+            "y": 6946.81
+          },
+          {
+            "x": 7095.91,
+            "y": 6827.21
+          },
+          {
+            "x": 6977.94,
+            "y": 6361.90
+          }
+        ]
+      }
+    ],
+  "coordinateMetersPerUnit": 100,
+  "tileBounds": {
+    "minX": -0.03,
+    "maxX": 163.81,
+    "minY": -0.01,
+    "maxY": 163.83
+  }
+}
